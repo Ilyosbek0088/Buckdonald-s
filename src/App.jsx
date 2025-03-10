@@ -2,7 +2,7 @@ import { useState } from "react";
 import Card from "./components/Card/card";
 import Products from "./data/mockData";
 import { FaHamburger, FaShoppingCart } from "react-icons/fa";
-import './App.css';
+
 
 function App() {
   const [cart, setCart] = useState({});
