@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Card from "./components/Card/card";
+import Card from "./components/card/card";
 import Products from "./data/mockData";
 import { FaHamburger, FaShoppingCart } from "react-icons/fa";
-// import "./index.css";
-// import "./App.css";
+import "./index.css";
+import "./App.css";
 
 function App() {
   const [cart, setCart] = useState({});
